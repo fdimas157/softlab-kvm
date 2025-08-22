@@ -1,7 +1,7 @@
 services:    
   feabsensi:
     build:
-      context: ../../../fe-absensi
+      context: ../../../fe-kantor-absensi
       dockerfile: Dockerfile
     image: feabsensi
     container_name: feabsensi

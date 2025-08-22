@@ -6,4 +6,4 @@ services:
     image: feabsensi
     container_name: feabsensi
     ports:
-      - '3005:80'
+      - '3030:80'

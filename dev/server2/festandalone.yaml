@@ -1,0 +1,9 @@
+services:    
+  feabsensi:
+    build:
+      context: ../../../fe-absensi
+      dockerfile: Dockerfile
+    image: feabsensi
+    container_name: feabsensi
+    ports:
+      - '3005:80'

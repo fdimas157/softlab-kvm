@@ -1,0 +1,9 @@
+services:
+  cdn:
+    image: nginx:1.23.1-alpine
+    container_name: cdn
+    ports:
+      - '3001:80'
+    volumes:
+      - ../../config/nginx/cdn.conf:/etc/nginx/nginx.conf
+      - ../../../fe-kantor-absensi/public/fonts:/var/www/html/absensi

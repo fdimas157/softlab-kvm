@@ -1,9 +1,9 @@
 services:    
-  feabsensi:
+  fekantorabsensi:
     build:
       context: ../../../fe-kantor-absensi
       dockerfile: Dockerfile
-    image: feabsensi
-    container_name: feabsensi
+    image: fekantorabsensi
+    container_name: fekantorabsensi
     ports:
       - '3030:80'
